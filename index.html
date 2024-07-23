@@ -43,9 +43,10 @@ body {
     border: 10px solid gold;    
 }
 
-.message-box textarea {
+.message-box input {
     margin-top: 5px; 
     width: 100%;
+    margin-bottom: 15px;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
@@ -54,13 +55,13 @@ body {
     box-shadow: -10px 10px 10px black;
 }
 .message-box button{
-    margin-top: 20px;
     padding: 10px;
     margin: 5px;
     width: 120px;
     border-radius: 10px;
     background-color: gold;
     color: black;
+    border: 2px solid black;
 }
 
     </style>
@@ -69,7 +70,7 @@ body {
     <div class="message-box">
         <h1>Ask me a question?</h1>
         <img src="https://media.istockphoto.com/id/1316420668/vector/user-icon-human-person-symbol-social-profile-icon-avatar-login-sign-web-user-symbol.jpg?s=612x612&w=0&k=20&c=AhqW2ssX8EeI2IYFm6-ASQ7rfeBWfrFFV4E87SaFhJE=" alt="Image" class="message-image">
-        <textarea id="inp" placeholder="Enter your Message" style="font-size: larger; font-weight: bolder;"></textarea>
+        <input id="inp" placeholder="Enter your Message" style="font-size: larger; font-weight: bolder;">
         <button id="btn1" onclick="change()"><b>Accept</b></button>
         <button id="btn2" onclick="change1()"><b>Decline</b></button>
     </div>
